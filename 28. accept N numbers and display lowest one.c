@@ -4,10 +4,11 @@
 
 int main() {
     int n;
-    int numbers[n];
-
+    
     printf("Enter the number of elements: ");
     scanf("%d", &n);
+
+    int numbers[n];
 
     printf("Enter the list of numbers:\n");
     for (int i = 0; i < n; i++) {
